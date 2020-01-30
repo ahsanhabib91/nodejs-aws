@@ -160,9 +160,9 @@ const URL_FIFO_SQS: string = 'https://sqs.eu-west-1.amazonaws.com/954982581590/B
 const URL_STANDARD_SQS: string = 'https://sqs.eu-west-1.amazonaws.com/954982581590/BS23_STANDARD_QUEUE';
 // aws_sqs.createStandardQueue();
 // aws_sqs.createFifoQueue();
-// aws_sqs.listQueues();
+aws_sqs.listQueues();
 // aws_sqs.getQueueUrl();
-aws_sqs.sendMessage(URL_FIFO_SQS);
+// aws_sqs.sendMessage(URL_FIFO_SQS);
 // aws_sqs.receiveMessage(URL_STANDARD_SQS);
 let count = 0;
 // aws_sqs.receiveMessage(URL_STANDARD_SQS);
